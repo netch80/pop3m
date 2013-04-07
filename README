@@ -1,0 +1,11 @@
+(Currently this is more historic but could be used in some mail
+systems...)
+
+This small module is intended to solve a well-known problem with
+sending emails for multiple recipients to one mailbox and then
+extracting by remote POP3/IMAP client. Unlike analogs, its main
+method is to reinject message for the target mailbox; this is some
+more expensive but stable for all setups.
+
+Its proper usage required external lookup domain->mailbox which
+should be done using MTA (sendmail, etc.) facilities.

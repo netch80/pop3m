@@ -1,0 +1,11 @@
+/* 8.11 - 8.12 */
+Mlocal-pop,    P=/usr/local/sbin/pop3m, F=SDEhMmnu9,
+               S=EnvFromL/HdrFromL, R=EnvToSMTP,
+               T=DNS/RFC822/X-Unix,
+               A=pop3m -f $f -b $h $u
+
+/* 8.9 */
+Mlocal-pop,    P=/usr/local/sbin/pop3m, F=DEhMmnu9,
+               S=10/30, R=21,
+               T=DNS/RFC822/X-Unix,
+               A=pop3m -f $f -b $h $u
