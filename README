@@ -1,6 +1,3 @@
-(Currently this is more historic but could be used in some mail
-systems...)
-
 This small module is intended to solve a well-known problem with
 sending emails for multiple recipients to one mailbox and then
 extracting by remote POP3/IMAP client. Unlike analogs, its main
@@ -9,3 +6,7 @@ more expensive but stable for all setups.
 
 Its proper usage required external lookup domain->mailbox which
 should be done using MTA (sendmail, etc.) facilities.
+
+The code wasn't changed since 2003. In 2008 I've left LuckyNet and
+missed further support for it, so it's kept mainly for historic
+and reference reasons.
